@@ -603,7 +603,7 @@ void Trigger()
    leg->SetLineWidth(1);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","Control Trigger","p");
+   TLegendEntry *entry=leg->AddEntry("NULL","Control Trigger Only","p");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
@@ -611,7 +611,7 @@ void Trigger()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","Analysis Trigger","p");
+   entry=leg->AddEntry("NULL","Control and Analysis Trigger","p");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
