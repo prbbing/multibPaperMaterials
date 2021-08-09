@@ -1722,7 +1722,7 @@ void all_moments()
    leg->SetLineWidth(2);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   TLegendEntry *entry=leg->AddEntry("NULL","E_{1}(z) = #sqrt{2}e^{-z} #times J","L");
+   TLegendEntry *entry=leg->AddEntry("NULL","E_{1}(m_{jj}) = #sqrt{2}e^{-z} #times J","L");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1730,7 +1730,7 @@ void all_moments()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","E_{2}(z) = (6e^{-2z} - 4e^{-z}) #times J","L");
+   entry=leg->AddEntry("NULL","E_{2}(m_{jj}) = (6e^{-2z} - 4e^{-z}) #times J","L");
    entry->SetLineColor(2);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1738,7 +1738,7 @@ void all_moments()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","E_{3}(z) = (10#sqrt{6}e^{-3z} - 12#sqrt{6}e^{-2z} + 3#sqrt{6}e^{-z}) #times J","L");
+   entry=leg->AddEntry("NULL","E_{3}(m_{jj}) = (10#sqrt{6}e^{-3z} - 12#sqrt{6}e^{-2z} + 3#sqrt{6}e^{-z}) #times J","L");
    entry->SetLineColor(4);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1746,7 +1746,7 @@ void all_moments()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","E_{4}(z) = (70#sqrt{2}e^{-4z} - 120#sqrt{2}e^{-3z} + 60#sqrt{2}e^{-2z} - 8#sqrt{2}e^{-z}) #times J","L");
+   entry=leg->AddEntry("NULL","E_{4}(m_{jj}) = (70#sqrt{2}e^{-4z} - 120#sqrt{2}e^{-3z} + 60#sqrt{2}e^{-2z} - 8#sqrt{2}e^{-z}) #times J","L");
    entry->SetLineColor(6);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1764,7 +1764,7 @@ void all_moments()
    leg->SetLineWidth(2);
    leg->SetFillColor(0);
    leg->SetFillStyle(0);
-   entry=leg->AddEntry("NULL","#splitline{E_{5}(z) = (126#sqrt{10}e^{-5z} - 280#sqrt{10}e^{-4z} + 210#sqrt{10}e^{-3z}}{             - 60#sqrt{10}e^{-2z} + 5#sqrt{10}e^{-z}) #times J}","L");
+   entry=leg->AddEntry("NULL","#splitline{E_{5}(m_{jj}) = (126#sqrt{10}e^{-5z} - 280#sqrt{10}e^{-4z} + 210#sqrt{10}e^{-3z}}{             - 60#sqrt{10}e^{-2z} + 5#sqrt{10}e^{-z}) #times J}","L");
    entry->SetLineColor(8);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1772,7 +1772,7 @@ void all_moments()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","#splitline{E_{6}(z) = (924#sqrt{3}e^{-6z} - 2520#sqrt{3}e^{-5z} + 2520#sqrt{3}e^{-4z}}{             - 1120#sqrt{3}e^{-3z} + 210#sqrt{3}e^{-2z} - 12#sqrt{3}e^{-z}) #times J}","L");
+   entry=leg->AddEntry("NULL","#splitline{E_{6}(m_{jj}) = (924#sqrt{3}e^{-6z} - 2520#sqrt{3}e^{-5z} + 2520#sqrt{3}e^{-4z}}{             - 1120#sqrt{3}e^{-3z} + 210#sqrt{3}e^{-2z} - 12#sqrt{3}e^{-z}) #times J}","L");
    entry->SetLineColor(12);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1780,7 +1780,7 @@ void all_moments()
    entry->SetMarkerStyle(21);
    entry->SetMarkerSize(1);
    entry->SetTextFont(42);
-   entry=leg->AddEntry("NULL","#splitline{E_{7}(z) = (1716#sqrt{14}e^{-7z} - 5544#sqrt{14}e^{-6z} + 6930#sqrt{14}e^{-5z}}{             - 4200#sqrt{14}e^{-4z} + 1260#sqrt{14}e^{-3z} - 168#sqrt{14}e^{-2z} + 7#sqrt{14}e^{-z}) #times J}","L");
+   entry=leg->AddEntry("NULL","#splitline{E_{7}(m_{jj}) = (1716#sqrt{14}e^{-7z} - 5544#sqrt{14}e^{-6z} + 6930#sqrt{14}e^{-5z}}{             - 4200#sqrt{14}e^{-4z} + 1260#sqrt{14}e^{-3z} - 168#sqrt{14}e^{-2z} + 7#sqrt{14}e^{-z}) #times J}","L");
    entry->SetLineColor(11);
    entry->SetLineStyle(1);
    entry->SetLineWidth(3);
@@ -1827,7 +1827,7 @@ void all_moments()
    tex->SetTextFont(42);
    tex->SetTextSize(0.04055496);
    tex->SetLineWidth(2);
-   tex->Draw();
+   //tex->Draw();
       tex = new TLatex(1780,1.212739,"#sqrt{s} = 13 TeV, 103 fb^{-1}");
    tex->SetTextFont(42);
    tex->SetTextSize(0.04055496);

@@ -35,7 +35,7 @@ void IndividualMoments()
    hbkg__1__1__3__1__1__1->GetXaxis()->SetTitleSize(0.035);
    hbkg__1__1__3__1__1__1->GetXaxis()->SetTitleOffset(1.2);
    hbkg__1__1__3__1__1__1->GetXaxis()->SetTitleFont(42);
-   hbkg__1__1__3__1__1__1->GetYaxis()->SetTitle("Arbitrary Unit");
+   hbkg__1__1__3__1__1__1->GetYaxis()->SetTitle("E_{i}(m_{jj})");
    hbkg__1__1__3__1__1__1->GetYaxis()->SetLabelFont(42);
    hbkg__1__1__3__1__1__1->GetYaxis()->SetLabelSize(0.035);
    hbkg__1__1__3__1__1__1->GetYaxis()->SetTitleSize(0.035);
@@ -831,7 +831,7 @@ void IndividualMoments()
    tex->SetTextFont(42);
    tex->SetTextSize(0.04749341);
    tex->SetLineWidth(2);
-   tex->Draw();
+   //tex->Draw();
       tex = new TLatex(869.4914,1.940909,"#sqrt{s} = 13 TeV, 103 fb^{-1}");
    tex->SetTextFont(42);
    tex->SetTextSize(0.04749341);
